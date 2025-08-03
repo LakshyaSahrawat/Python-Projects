@@ -1,0 +1,62 @@
+2025-07-31 23:25:38,387 [INFO] users.py:12 (register) - Attempting to register user: Pawan
+2025-07-31 23:25:38,408 [WARNING] users.py:14 (register) - Username already exists: Pawan
+2025-07-31 23:25:49,306 [INFO] users.py:12 (register) - Attempting to register user: Lakshya
+2025-07-31 23:25:49,308 [WARNING] users.py:14 (register) - Username already exists: Lakshya
+2025-07-31 23:25:53,172 [INFO] users.py:12 (register) - Attempting to register user: Lakshya
+2025-07-31 23:25:53,174 [WARNING] users.py:14 (register) - Username already exists: Lakshya
+2025-07-31 23:27:32,217 [INFO] users.py:26 (login) - Login attempt for username: Pawan
+2025-07-31 23:27:32,792 [WARNING] users.py:29 (login) - Failed login attempt for username: Pawan
+2025-07-31 23:27:59,015 [INFO] users.py:12 (register) - Attempting to register user: test1
+2025-07-31 23:27:59,725 [INFO] users.py:21 (register) - User registered successfully: test1
+2025-07-31 23:28:07,460 [INFO] users.py:26 (login) - Login attempt for username: test1
+2025-07-31 23:28:08,148 [INFO] users.py:32 (login) - Token created for user: test1
+2025-07-31 23:28:09,869 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:09,873 [INFO] tasks.py:25 (read_tasks) - Fetched 0 tasks for user test1
+2025-07-31 23:28:19,520 [INFO] tasks.py:12 (create_task) - User test1 is creating a task: finish the fastapi project
+2025-07-31 23:28:19,545 [INFO] tasks.py:17 (create_task) - Task created with ID: 2
+2025-07-31 23:28:19,555 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:19,556 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user test1
+2025-07-31 23:28:26,282 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:26,284 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user test1
+2025-07-31 23:28:33,707 [INFO] tasks.py:12 (create_task) - User test1 is creating a task: finish the fastapi project
+2025-07-31 23:28:33,736 [INFO] tasks.py:17 (create_task) - Task created with ID: 3
+2025-07-31 23:28:33,745 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:33,746 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test1
+2025-07-31 23:28:36,561 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:36,562 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test1
+2025-07-31 23:28:39,242 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:39,244 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test1
+2025-07-31 23:28:50,727 [INFO] tasks.py:23 (read_tasks) - User test1 is fetching their tasks
+2025-07-31 23:28:50,728 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test1
+2025-07-31 23:32:11,740 [INFO] users.py:12 (register) - Attempting to register user: test2
+2025-07-31 23:32:12,326 [INFO] users.py:21 (register) - User registered successfully: test2
+2025-07-31 23:32:24,586 [INFO] users.py:26 (login) - Login attempt for username: test2
+2025-07-31 23:32:25,148 [INFO] users.py:32 (login) - Token created for user: test2
+2025-07-31 23:32:26,714 [INFO] tasks.py:23 (read_tasks) - User test2 is fetching their tasks
+2025-07-31 23:32:26,716 [INFO] tasks.py:25 (read_tasks) - Fetched 0 tasks for user test2
+2025-07-31 23:32:41,483 [INFO] tasks.py:12 (create_task) - User test2 is creating a task: finish the fastapi project
+2025-07-31 23:32:41,497 [INFO] tasks.py:17 (create_task) - Task created with ID: 4
+2025-07-31 23:32:41,508 [INFO] tasks.py:23 (read_tasks) - User test2 is fetching their tasks
+2025-07-31 23:32:41,509 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user test2
+2025-07-31 23:32:51,525 [INFO] tasks.py:23 (read_tasks) - User test2 is fetching their tasks
+2025-07-31 23:32:51,526 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user test2
+2025-07-31 23:37:15,787 [INFO] users.py:12 (register) - Attempting to register user: test3
+2025-07-31 23:37:16,818 [INFO] users.py:21 (register) - User registered successfully: test3
+2025-07-31 23:37:32,687 [INFO] users.py:26 (login) - Login attempt for username: test3
+2025-07-31 23:37:34,073 [INFO] users.py:32 (login) - Token created for user: test3
+2025-07-31 23:37:35,739 [INFO] tasks.py:23 (read_tasks) - User test3 is fetching their tasks
+2025-07-31 23:37:35,741 [INFO] tasks.py:25 (read_tasks) - Fetched 0 tasks for user test3
+2025-07-31 23:38:07,230 [INFO] tasks.py:12 (create_task) - User test3 is creating a task: TO work on fast api project
+2025-07-31 23:38:07,242 [INFO] tasks.py:17 (create_task) - Task created with ID: 5
+2025-07-31 23:38:07,408 [INFO] tasks.py:23 (read_tasks) - User test3 is fetching their tasks
+2025-07-31 23:38:07,419 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user test3
+2025-07-31 23:38:16,059 [INFO] tasks.py:12 (create_task) - User test3 is creating a task: TO work on fast api project
+2025-07-31 23:38:16,066 [INFO] tasks.py:17 (create_task) - Task created with ID: 6
+2025-07-31 23:38:16,073 [INFO] tasks.py:23 (read_tasks) - User test3 is fetching their tasks
+2025-07-31 23:38:16,075 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test3
+2025-07-31 23:38:20,695 [INFO] tasks.py:23 (read_tasks) - User test3 is fetching their tasks
+2025-07-31 23:38:20,697 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test3
+2025-07-31 23:38:22,057 [INFO] tasks.py:23 (read_tasks) - User test3 is fetching their tasks
+2025-07-31 23:38:22,058 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test3
+2025-07-31 23:38:22,412 [INFO] tasks.py:23 (read_tasks) - User test3 is fetching their tasks
+2025-07-31 23:38:22,413 [INFO] tasks.py:25 (read_tasks) - Fetched 2 tasks for user test3

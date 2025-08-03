@@ -1,0 +1,22 @@
+2025-06-28 20:08:26,796 [INFO] users.py:12 (register) - Attempting to register user: Lakshya
+2025-06-28 20:08:26,809 [WARNING] users.py:14 (register) - Username already exists: Lakshya
+2025-06-28 20:08:59,553 [INFO] users.py:12 (register) - Attempting to register user: Pawan
+2025-06-28 20:09:00,239 [INFO] users.py:21 (register) - User registered successfully: Pawan
+2025-06-28 20:10:46,575 [INFO] users.py:26 (login) - Login attempt for username: Pawan
+2025-06-28 20:10:47,276 [INFO] users.py:32 (login) - Token created for user: Pawan
+2025-06-28 20:10:47,699 [INFO] users.py:26 (login) - Login attempt for username: Pawan
+2025-06-28 20:10:48,264 [INFO] users.py:32 (login) - Token created for user: Pawan
+2025-06-28 20:10:48,933 [INFO] tasks.py:23 (read_tasks) - User Pawan is fetching their tasks
+2025-06-28 20:10:48,936 [INFO] tasks.py:25 (read_tasks) - Fetched 0 tasks for user Pawan
+2025-06-28 20:11:43,111 [INFO] tasks.py:12 (create_task) - User Pawan is creating a task: finish the fastapi project
+2025-06-28 20:11:43,142 [INFO] tasks.py:17 (create_task) - Task created with ID: 1
+2025-06-28 20:11:43,154 [INFO] tasks.py:23 (read_tasks) - User Pawan is fetching their tasks
+2025-06-28 20:11:43,155 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user Pawan
+2025-06-28 20:11:47,548 [INFO] tasks.py:23 (read_tasks) - User Pawan is fetching their tasks
+2025-06-28 20:11:47,549 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user Pawan
+2025-06-28 20:12:08,659 [INFO] users.py:26 (login) - Login attempt for username: Pawan
+2025-06-28 20:12:08,707 [INFO] users.py:26 (login) - Login attempt for username: Pawan
+2025-06-28 20:12:08,876 [INFO] users.py:32 (login) - Token created for user: Pawan
+2025-06-28 20:12:08,924 [INFO] users.py:32 (login) - Token created for user: Pawan
+2025-06-28 20:12:10,428 [INFO] tasks.py:23 (read_tasks) - User Pawan is fetching their tasks
+2025-06-28 20:12:10,429 [INFO] tasks.py:25 (read_tasks) - Fetched 1 tasks for user Pawan
