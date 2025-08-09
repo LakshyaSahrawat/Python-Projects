@@ -1,0 +1,45 @@
+{
+ "doctype": "DocType",
+ "name": "Electricity Bill",
+ "module": "Electricity App",
+ "custom": 0,
+ "autoname": "ELECTRICITY-BILL-.####",
+ "fields": [
+  {
+   "fieldname": "consumer_name",
+   "label": "Consumer Name",
+   "fieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "units_consumed",
+   "label": "Units Consumed",
+   "fieldtype": "Float",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rate_per_unit",
+   "label": "Rate per Unit",
+   "fieldtype": "Currency",
+   "default": "7"
+  },
+  {
+   "fieldname": "total_amount",
+   "label": "Total Amount",
+   "fieldtype": "Currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "billing_date",
+   "label": "Billing Date",
+   "fieldtype": "Date",
+   "default": "Today"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
+
