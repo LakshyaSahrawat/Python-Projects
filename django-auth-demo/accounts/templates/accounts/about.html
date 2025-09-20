@@ -1,0 +1,14 @@
+<!-- accounts/templates/accounts/about.html -->
+<!doctype html>
+<html>
+<head><title>About</title></head>
+<body>
+  <h2>About Page</h2>
+
+  <p>Welcome, {{ request.user.first_name }} {{ request.user.last_name }} ({{ request.user.username }})</p>
+
+  <p>This page is visible only after you login.</p>
+
+  <p><a href="{% url 'logout' %}">Logout</a></p>
+</body>
+</html>

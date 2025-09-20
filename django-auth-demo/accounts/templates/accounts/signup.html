@@ -1,0 +1,28 @@
+<!-- accounts/templates/accounts/signup.html -->
+<!doctype html>
+<html>
+<head><title>Signup</title></head>
+<body>
+  <h2>Signup</h2>
+
+  {% if messages %}
+    <ul>
+      {% for m in messages %}
+        <li>{{ m }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <form method="post">
+    {% csrf_token %}
+    First name: <input type="text" name="fname"><br><br>
+    Last name: <input type="text" name="lname"><br><br>
+    Mobile: <input type="text" name="mobile"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    <button type="submit">Signup</button>
+  </form>
+
+  <p>Already have account? <a href="{% url 'login' %}">Login</a></p>
+</body>
+</html>
