@@ -1,0 +1,37 @@
+{
+  "timezone": "America/New_York",
+  "working_hours": {
+    "monday": [
+      "09:00-17:00"
+    ],
+    "tuesday": [
+      "09:00-17:00"
+    ],
+    "wednesday": [
+      "09:00-17:00"
+    ],
+    "thursday": [
+      "09:00-17:00"
+    ],
+    "friday": [
+      "09:00-17:00"
+    ]
+  },
+  "event_types": {
+    "consultation": 30,
+    "followup": 15,
+    "physical": 45,
+    "specialist": 60
+  },
+  "bookings": [
+    {
+      "date": "2025-11-21",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "appointment_type": "consultation",
+      "patient": {
+        "name": "Alice"
+      }
+    }
+  ]
+}

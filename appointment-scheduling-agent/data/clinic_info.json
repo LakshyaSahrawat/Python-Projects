@@ -1,0 +1,27 @@
+{
+  "clinic_name": "HealthCare Plus Clinic",
+  "faqs": [
+    {
+      "q": "Where are you located?",
+      "a": "We are located at 123 Health St., Springfield. Free parking is available behind the building."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "We are open Monday to Friday, 9:00 AM - 5:00 PM."
+    },
+    {
+      "q": "What insurance do you accept?",
+      "a": "We accept Blue Cross Blue Shield, Aetna, Cigna, UnitedHealthcare, and Medicare."
+    },
+    {
+      "q": "What should I bring for my first visit?",
+      "a": "Please bring a photo ID, insurance card, and a list of current medications."
+    },
+    {
+      "q": "What is your cancellation policy?",
+      "a": "Please cancel at least 24 hours before your appointment to avoid a fee."
+    }
+  ],
+  "clinic_phone": "+1-555-123-4567",
+  "covid_policy": "Masks are optional but recommended for symptomatic patients."
+}
